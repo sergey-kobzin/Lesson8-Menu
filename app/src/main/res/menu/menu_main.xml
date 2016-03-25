@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/menuTopLeftFragment"
+            android:title="@string/menu_top_left"
+            app:showAsAction="never"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/menuTopRightFragment"
+            android:title="@string/menu_top_right"
+            app:showAsAction="never"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/menuBottomFragment"
+            android:title="@string/menu_bottom"
+            app:showAsAction="never"
+            android:checked="true"/>
+    </group>
+</menu>

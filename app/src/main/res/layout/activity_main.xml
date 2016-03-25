@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <fragment
+            android:id="@+id/topLeftFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.shpp.skobzin.lesson8_menu.ColoredFragment"
+            android:layout_margin="8dp"/>
+
+        <fragment
+            android:id="@+id/topRightFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.shpp.skobzin.lesson8_menu.ColoredFragment"
+            android:layout_margin="8dp"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/bottomFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_span="2"
+            class="com.shpp.skobzin.lesson8_menu.ColoredFragment"
+            android:layout_margin="8dp"/>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menuBlack"
+            android:title="@string/menu_black"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menuBlue"
+            android:title="@string/menu_blue"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menuGreen"
+            android:title="@string/menu_green"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menuCyan"
+            android:title="@string/menu_cyan"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menuRed"
+            android:title="@string/menu_red"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menuPurple"
+            android:title="@string/menu_purple"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menuYellow"
+            android:title="@string/menu_yellow"
+            app:showAsAction="never"/>
+
+        <item
+            android:id="@+id/menuWhite"
+            android:title="@string/menu_white"
+            app:showAsAction="never"/>
+    </group>
+</menu>

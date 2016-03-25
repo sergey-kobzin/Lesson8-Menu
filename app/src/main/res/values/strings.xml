@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lesson 8 - Menu</string>
+
+    <string name="menu_top_left">Top left fragment</string>
+    <string name="menu_top_right">Top right fragment</string>
+    <string name="menu_bottom">Bottom fragment</string>
+
+    <string name="menu_white">White</string>
+    <string name="menu_yellow">Yellow</string>
+    <string name="menu_purple">Purple</string>
+    <string name="menu_red">Red</string>
+    <string name="menu_cyan">Cyan</string>
+    <string name="menu_green">Green</string>
+    <string name="menu_blue">Blue</string>
+    <string name="menu_black">Black</string>
+
+    <string name="text_fragment">This is fragment</string>
+</resources>
